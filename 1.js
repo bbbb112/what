@@ -21,7 +21,7 @@ const Q = {};
 const Q1 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
 const name = "Premium ";
-const appid = "payasyougo.399k_1y";
+const appid = "399k_1y";
 
 
 if (typeof $response == "undefined") {
