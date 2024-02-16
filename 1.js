@@ -2,7 +2,7 @@
 
 
 使用声明：⚠️仅供参考，瞎寫的！
-annual.unlimited.450.payasyougo.399k_1
+
 **************************************
 [rewrite_local]
 #修改
@@ -41,7 +41,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = '1';
   const UAMappings = {
-    'Speak':{ name: 'Premium', id: 'payasyougo.399k_1y'},
+    'Speak':{ name: 'premium', id: 'annual.unlimited.450.payasyougo.399k_1y'},
     
     };
 
