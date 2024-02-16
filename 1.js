@@ -37,7 +37,7 @@ if (typeof $response == "undefined") {
   const app = '1';
   const UAMappings = {
     
-    'Speak':{ name: 'Premium', id: 'annual.unlimited.450.payasyougo.399k_1y
+    'Speak':{ name: 'Premium', id: 'speak_399k_1y
 '},
     
     };
