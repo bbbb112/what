@@ -21,7 +21,7 @@ const Q = {};
 const Q1 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
 const name = "Premium ";
-const appid = "annual.unlimited.450.payasyougo.399k_1y";
+const appid = "payasyougo.399k_1y";
 
 
 if (typeof $response == "undefined") {
@@ -33,7 +33,7 @@ if (typeof $response == "undefined") {
   Q1.subscriber.entitlements = Q1.subscriber.entitlements || {};
   const data = {
 	      "product_identifier": (appid),
-	      "purchase_date": "2022-09-09T09:09:09Z"
+	      "purchase_date": "2023-02-09T09:09:09Z"
     };
   Q1.subscriber.entitlements[(name)] = (data);
   Q1.subscriber.subscriptions[(appid)] = {  ...data,		"warning": "仅供学习，禁止转载或售卖",	"original_purchase_date": "2022-09-09T09:09:09Z",	"store": "app_store",	"ownership_type": "PURCHASED"};
