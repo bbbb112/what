@@ -41,7 +41,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = '1';
   const UAMappings = {
-    'Speak':{ name: 'premium plus', id: 'annual.unlimited.450.payasyougo.399k_1y'},
+    'Speak':{ name: 'premium', id: 'annual.unlimited.450.payasyougo.399k_1y'},
     
     };
 
