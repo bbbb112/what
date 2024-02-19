@@ -7,7 +7,7 @@ id：vip.forever.tinglee
 [rewrite_local]
 
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/bbbb112/what/main/ting.js
 [mitm] 
 
 hostname = buy.itunes.apple.com
