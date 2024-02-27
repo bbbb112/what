@@ -42,7 +42,8 @@ if (typeof $response == "undefined") {
   const app = '1';
   const UAMappings = {
     'Speak':{ name: 'premium', id: 'annual.unlimited.450.payasyougo.399k_1y'},
-    
+      'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
+  'Readle':{ name: 'Premium', id: 'com.hello.german.yearly'},
     };
 
   const data = {
