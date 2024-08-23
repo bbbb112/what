@@ -3,7 +3,7 @@ Duet Display 2.18
 DuetAir 1.2.12
 
 需登录
-
+数据拷贝于YU9191
 [rewrite_local]
 
 https://rdp.duetdisplay.com/v1/users/validateReceipt url script-response-body https://raw.githubusercontent.com/bbbb112/what/main/duet.js
