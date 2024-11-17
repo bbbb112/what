@@ -10,7 +10,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/pool\.elsanow\.io\/(user\/api\/v\d\/purchase|entitlement\/api\/v\d\/user\/entitlements) url script-response-body https://raw.githubusercontent.com/bbbb112/what/els.js
+^https?:\/\/pool\.elsanow\.io\/(user\/api\/v\d\/purchase|entitlement\/api\/v\d\/user\/entitlements) url script-response-body https://raw.githubusercontent.com/bbbb112/what/main/els.js
 
 [mitm]
 hostname = pool.elsanow.io
