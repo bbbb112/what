@@ -8,6 +8,12 @@ https://api.fireflyau.com url script-response-body https://raw.githubusercontent
 ^https:\/\/api\.fireflyau\.com\/apiApp\/pte\/other\/alertSet\/findOneByCode url reject
 [mitm]
 hostname = api.fireflyau.com
+
+^https://api\.fireflyau\.com/apiApp/vip/userVip/isVip
+
+
+
+*/
 */
 
 var body = $response.body;
